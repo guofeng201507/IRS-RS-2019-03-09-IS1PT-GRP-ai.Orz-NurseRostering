@@ -1,10 +1,4 @@
-﻿### Workshop Project Submission : Github Repository & Zip File
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
+﻿### Group Project Readme
 
 ---
 
@@ -15,7 +9,7 @@
      style="float: left; margin-right: 0px;" />
 
 ---
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+## SECTION 2 : EXECUTIVE SUMMARY
 An important aspect of hospital operations in Singapore is the effective scheduling of nurses in various wards, which is vital for the hospitals’ patients to receive timely care from the nurses with the necessary skill sets. The objective is to balance operational costs and safe patient care needs while maximizing the degree to which nurses’ request are met.
 
 However, the scheduling of the nurses’ roster is very time-consuming and challenging due to the need to balance the intensive demands of healthcare and the well-being of nurses. In addition, due to the dynamic nature of the workload and unforeseen circumstances, rescheduling is also very common.
@@ -41,83 +35,19 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Nurse Rostering](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/h0OUPGo2GJ4 "Nurse Rostering")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+[![Watch the video](https://img.youtube.com/vi/h0OUPGo2GJ4/maxresdefault.jpg)](https://youtu.be/h0OUPGo2GJ4)
 
 ---
 ## SECTION 5 : USER GUIDE
 
-`<Github File Link>` : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS_ISS_Reasoning_Systems_Group_Project_NurseRostering(SpringBoot)User_Guide.pdf>
+Please refer to the User Guide below for detailed instructions.
 
-[ 1 ] To prepare the Virtual Machine Environment:
-download pre-built virtual machine from http://bit.ly/iss-vm
-
-start iss-vm
-
-open terminal in iss-vm
-
-start the Tool KIE 7.12 on desktop
-
-wait until KIE server successfully started up
-
-[ 2 ] To run the back-end JBPM project on KIE server:
-Go to URL using web browser http://localhost:8080/jbpm-console
-
-Login using username/password: wbadmin/wbadmin
-
-import project using git import from URL:https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding.git
-
-Deploy the MerchantOnborading Project, and make sure it is running with version 1.0.0
-
-[ 3 ] To run the front-end Python Project:
-make sure django framework is available (pip install django)
-
-make a new directory, and start a command prompt at this directory
-
-clone project from git clone URL:https://github.com/gu-lijian/mr_groupproject_web.git
-
-use cd command to go to /mr_groupproject_web/merchantapp
-
-run command: $ python manage.py runserver
-
-Go to URL using web browser http://127.0.0.1:8000/
+Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS_ISS_Reasoning_Systems_Group_Project_NurseRostering(SpringBoot)User_Guide.pdf>
 
 ---
-## SECTION 6 : PROJECT REPORT / PAPER
+## SECTION 6 : PROJECT REPORT
 
-`<Github File Link>` : <https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/ProjectReport/Project%20Report%20HDB-BTO.pdf>
+Please download the project report from the link below.
 
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- List of Abbreviations (if applicable)
-- References (if applicable)
+`Report Download Link : <https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/ProjectReport/Project%20Report%20HDB-BTO.pdf>
 
----
-## SECTION 7 : MISCELLANEOUS
-
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
-**This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
-
-**Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
-
-[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
-
-**zhan.gu@nus.edu.sg**
