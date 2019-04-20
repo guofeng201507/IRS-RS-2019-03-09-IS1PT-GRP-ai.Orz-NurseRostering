@@ -1,0 +1,175 @@
+[{
+  "id": 1,
+  "shift": {
+    "id": 0,
+    "shiftType": {
+      "id": 0,
+      "code": "E",
+      "index": 0,
+      "startTimeString": "06:30:00",
+      "endTimeString": "14:30:00",
+      "night": false,
+      "description": "Early",
+      "label": "E (Early)"
+    },
+    "index": 0,
+    "requiredEmployeeSize": 2,
+    "label": "E (Early) of Fri 1 Jan"
+  },
+  "indexInShift": 1,
+  "employee": {
+    "id": 8,
+    "code": "8",
+    "name": "8",
+    "label": "Employee 8",
+    "weekendLength": 2
+  },
+  "weekend": false,
+  "shiftDateDayOfWeek": "FRIDAY",
+  "shiftDateDayIndex": 0,
+  "shiftType": {
+    "id": 0,
+    "code": "E",
+    "index": 0,
+    "startTimeString": "06:30:00",
+    "endTimeString": "14:30:00",
+    "night": false,
+    "description": "Early",
+    "label": "E (Early)"
+  },
+  "contract": {
+    "id": 1,
+    "code": "3",
+    "description": "night",
+    "weekendDefinition": "SATURDAY_SUNDAY",
+    "contractLineList": [
+      {
+        "id": 6,
+        "contractLineType": "SINGLE_ASSIGNMENT_PER_DAY",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": 7,
+        "contractLineType": "TOTAL_ASSIGNMENTS",
+        "minimumEnabled": true,
+        "minimumValue": 8,
+        "minimumWeight": 1,
+        "maximumEnabled": true,
+        "maximumValue": 8,
+        "maximumWeight": 1,
+        "enabled": true
+      },
+      {
+        "id": 8,
+        "contractLineType": "CONSECUTIVE_WORKING_DAYS",
+        "minimumEnabled": true,
+        "minimumValue": 1,
+        "minimumWeight": 1,
+        "maximumEnabled": true,
+        "maximumValue": 2,
+        "maximumWeight": 1,
+        "enabled": true
+      },
+      {
+        "id": 9,
+        "contractLineType": "CONSECUTIVE_FREE_DAYS",
+        "minimumEnabled": true,
+        "minimumValue": 3,
+        "minimumWeight": 1,
+        "maximumEnabled": true,
+        "maximumValue": 20,
+        "maximumWeight": 1,
+        "enabled": true
+      },
+      {
+        "id": 10,
+        "contractLineType": "COMPLETE_WEEKENDS",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": 11,
+        "contractLineType": "IDENTICAL_SHIFT_TYPES_DURING_WEEKEND",
+        "enabled": true,
+        "weight": 1
+      }
+    ],
+    "weekendLength": 2
+  },
+  "shiftDate": {
+    "id": 0,
+    "dayIndex": 0,
+    "date": "2010-01-01",
+    "shiftList": [
+      {
+        "id": 0,
+        "shiftType": {
+          "id": 0,
+          "code": "E",
+          "index": 0,
+          "startTimeString": "06:30:00",
+          "endTimeString": "14:30:00",
+          "night": false,
+          "description": "Early",
+          "label": "E (Early)"
+        },
+        "index": 0,
+        "requiredEmployeeSize": 2,
+        "label": "E (Early) of Fri 1 Jan"
+      },
+      {
+        "id": 1,
+        "shiftType": {
+          "id": 1,
+          "code": "L",
+          "index": 1,
+          "startTimeString": "14:30:00",
+          "endTimeString": "22:30:00",
+          "night": false,
+          "description": "Late",
+          "label": "L (Late)"
+        },
+        "index": 1,
+        "requiredEmployeeSize": 2,
+        "label": "L (Late) of Fri 1 Jan"
+      },
+      {
+        "id": 2,
+        "shiftType": {
+          "id": 2,
+          "code": "D",
+          "index": 2,
+          "startTimeString": "08:30:00",
+          "endTimeString": "16:30:00",
+          "night": false,
+          "description": "Day shift",
+          "label": "D (Day shift)"
+        },
+        "index": 2,
+        "requiredEmployeeSize": 1,
+        "label": "D (Day shift) of Fri 1 Jan"
+      },
+      {
+        "id": 3,
+        "shiftType": {
+          "id": 3,
+          "code": "N",
+          "index": 3,
+          "startTimeString": "22:30:00",
+          "endTimeString": "06:30:00",
+          "night": true,
+          "description": "Night",
+          "label": "N (Night)"
+        },
+        "index": 3,
+        "requiredEmployeeSize": 1,
+        "label": "N (Night) of Fri 1 Jan"
+      }
+    ],
+    "dayOfWeek": "FRIDAY",
+    "label": "Fri 1 Jan",
+    "weekendSundayIndex": 2
+  },
+  "weekendSundayIndex": 2
+}]

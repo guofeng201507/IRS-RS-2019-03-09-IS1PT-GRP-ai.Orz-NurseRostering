@@ -1,0 +1,1443 @@
+{
+  "SchedulingPeriod": {
+    "ID": "sprint01",
+    "StartDate": "2010-01-01",
+    "EndDate": "2010-01-28",
+    "Skills": { "Skill": "Nurse" },
+    "ShiftTypes": {
+      "Shift": [
+        {
+          "ID": "E",
+          "StartTime": "06:30:00",
+          "EndTime": "14:30:00",
+          "Description": "Early",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "L",
+          "StartTime": "14:30:00",
+          "EndTime": "22:30:00",
+          "Description": "Late",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "D",
+          "StartTime": "08:30:00",
+          "EndTime": "16:30:00",
+          "Description": "Day shift",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "N",
+          "StartTime": "22:30:00",
+          "EndTime": "06:30:00",
+          "Description": "Night",
+          "Skills": { "Skill": "Nurse" }
+        }
+      ]
+    },
+    "Patterns": {
+      "Pattern": [
+        {
+          "ID": "0",
+          "weight": "1",
+          "PatternEntries": {
+            "PatternEntry": [
+              {
+                "index": "0",
+                "ShiftType": "L",
+                "Day": "Any"
+              },
+              {
+                "index": "1",
+                "ShiftType": "D",
+                "Day": "Any"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "1",
+          "weight": "1",
+          "PatternEntries": {
+            "PatternEntry": [
+              {
+                "index": "0",
+                "ShiftType": "D",
+                "Day": "Any"
+              },
+              {
+                "index": "1",
+                "ShiftType": "E",
+                "Day": "Any"
+              },
+              {
+                "index": "2",
+                "ShiftType": "D",
+                "Day": "Any"
+              }
+            ]
+          }
+        },
+        {
+          "ID": "2",
+          "weight": "1",
+          "PatternEntries": {
+            "PatternEntry": [
+              {
+                "index": "0",
+                "ShiftType": "None",
+                "Day": "Friday"
+              },
+              {
+                "index": "1",
+                "ShiftType": "Any",
+                "Day": "Saturday"
+              },
+              {
+                "index": "2",
+                "ShiftType": "Any",
+                "Day": "Sunday"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Contracts": {
+      "Contract": [
+        {
+          "ID": "0",
+          "Description": "fulltime",
+          "SingleAssignmentPerDay": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "MaxNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "16"
+          },
+          "MinNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "9"
+          },
+          "MaxConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "8"
+          },
+          "MinConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "2"
+          },
+          "MaxConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "7"
+          },
+          "MinConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "1"
+          },
+          "MaxConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "8"
+          },
+          "MinConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "2"
+          },
+          "MaxWorkingWeekendsInFourWeeks": {
+            "on": "0",
+            "weight": "0",
+            "#text": "0"
+          },
+          "WeekendDefinition": "SaturdaySunday",
+          "CompleteWeekends": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "IdenticalShiftTypesDuringWeekend": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "NoNightShiftBeforeFreeWeekend": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "AlternativeSkillCategory": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "UnwantedPatterns": {
+            "Pattern": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "ID": "1",
+          "Description": "75_time",
+          "SingleAssignmentPerDay": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "MaxNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "12"
+          },
+          "MinNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "6"
+          },
+          "MaxConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "5"
+          },
+          "MinConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "2"
+          },
+          "MaxConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "5"
+          },
+          "MinConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "1"
+          },
+          "MaxConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "5"
+          },
+          "MinConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "2"
+          },
+          "MaxWorkingWeekendsInFourWeeks": {
+            "on": "0",
+            "weight": "0",
+            "#text": "0"
+          },
+          "WeekendDefinition": "SaturdaySunday",
+          "CompleteWeekends": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "IdenticalShiftTypesDuringWeekend": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "NoNightShiftBeforeFreeWeekend": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "AlternativeSkillCategory": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "UnwantedPatterns": {
+            "Pattern": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "ID": "2",
+          "Description": "50_percent",
+          "SingleAssignmentPerDay": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "MaxNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "9"
+          },
+          "MinNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "4"
+          },
+          "MaxConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "4"
+          },
+          "MinConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "2"
+          },
+          "MaxConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "7"
+          },
+          "MinConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "1"
+          },
+          "MaxConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "4"
+          },
+          "MinConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "2"
+          },
+          "MaxWorkingWeekendsInFourWeeks": {
+            "on": "0",
+            "weight": "0",
+            "#text": "0"
+          },
+          "WeekendDefinition": "SaturdaySunday",
+          "CompleteWeekends": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "IdenticalShiftTypesDuringWeekend": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "NoNightShiftBeforeFreeWeekend": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "AlternativeSkillCategory": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "UnwantedPatterns": {
+            "Pattern": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "ID": "3",
+          "Description": "night",
+          "SingleAssignmentPerDay": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "MaxNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "8"
+          },
+          "MinNumAssignments": {
+            "on": "1",
+            "weight": "1",
+            "#text": "8"
+          },
+          "MaxConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "2"
+          },
+          "MinConsecutiveWorkingDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "1"
+          },
+          "MaxConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "20"
+          },
+          "MinConsecutiveFreeDays": {
+            "on": "1",
+            "weight": "1",
+            "#text": "3"
+          },
+          "MaxConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "2"
+          },
+          "MinConsecutiveWorkingWeekends": {
+            "on": "0",
+            "weight": "0",
+            "#text": "1"
+          },
+          "MaxWorkingWeekendsInFourWeeks": {
+            "on": "0",
+            "weight": "0",
+            "#text": "0"
+          },
+          "WeekendDefinition": "SaturdaySunday",
+          "CompleteWeekends": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "IdenticalShiftTypesDuringWeekend": {
+            "weight": "1",
+            "#text": "true"
+          },
+          "NoNightShiftBeforeFreeWeekend": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "AlternativeSkillCategory": {
+            "weight": "0",
+            "#text": "false"
+          },
+          "UnwantedPatterns": {
+            "Pattern": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        }
+      ]
+    },
+    "Employees": {
+      "Employee": [
+        {
+          "ID": "0",
+          "ContractID": "0",
+          "Name": "0",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "1",
+          "ContractID": "0",
+          "Name": "1",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "2",
+          "ContractID": "0",
+          "Name": "2",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "3",
+          "ContractID": "0",
+          "Name": "3",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "4",
+          "ContractID": "1",
+          "Name": "4",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "5",
+          "ContractID": "1",
+          "Name": "5",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "6",
+          "ContractID": "2",
+          "Name": "6",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "7",
+          "ContractID": "2",
+          "Name": "7",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "8",
+          "ContractID": "3",
+          "Name": "8",
+          "Skills": { "Skill": "Nurse" }
+        },
+        {
+          "ID": "9",
+          "ContractID": "3",
+          "Name": "9",
+          "Skills": { "Skill": "Nurse" }
+        }
+      ]
+    },
+    "CoverRequirements": {
+      "DayOfWeekCover": [
+        {
+          "Day": "Monday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Tuesday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Wednesday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Thursday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Friday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "2"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Saturday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        },
+        {
+          "Day": "Sunday",
+          "Cover": [
+            {
+              "Shift": "E",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "L",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "D",
+              "Preferred": "1"
+            },
+            {
+              "Shift": "N",
+              "Preferred": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "DayOffRequests": {
+      "DayOff": [
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-02"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-08"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-05"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-15"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-25"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-16"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-01"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "0",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-15"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-11"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-08"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-23"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "1",
+          "Date": "2010-01-06"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-08"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-01"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-16"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "2",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-16"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-25"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-13"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "3",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-02"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-28"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-24"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-06"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "4",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-25"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "5",
+          "Date": "2010-01-23"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-15"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-19"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-03"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "6",
+          "Date": "2010-01-28"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-02"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-25"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-19"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-12"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-16"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "7",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-05"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-15"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-08"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-26"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "8",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-06"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-19"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-02"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-24"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-16"
+        },
+        {
+          "weight": "1",
+          "EmployeeID": "9",
+          "Date": "2010-01-04"
+        }
+      ]
+    },
+    "ShiftOffRequests": {
+      "ShiftOff": [
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "0",
+          "Date": "2010-01-03"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "0",
+          "Date": "2010-01-13"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "0",
+          "Date": "2010-01-12"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "0",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "0",
+          "Date": "2010-01-02"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "1",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "1",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "1",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "1",
+          "Date": "2010-01-08"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "1",
+          "Date": "2010-01-19"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "2",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "2",
+          "Date": "2010-01-09"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "2",
+          "Date": "2010-01-24"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "2",
+          "Date": "2010-01-11"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "2",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "3",
+          "Date": "2010-01-11"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "3",
+          "Date": "2010-01-19"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "3",
+          "Date": "2010-01-13"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "3",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "3",
+          "Date": "2010-01-01"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "4",
+          "Date": "2010-01-01"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "4",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "4",
+          "Date": "2010-01-25"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "4",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "4",
+          "Date": "2010-01-22"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "5",
+          "Date": "2010-01-05"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "5",
+          "Date": "2010-01-13"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "5",
+          "Date": "2010-01-20"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "5",
+          "Date": "2010-01-04"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "5",
+          "Date": "2010-01-05"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "6",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "6",
+          "Date": "2010-01-14"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "6",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "6",
+          "Date": "2010-01-15"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "6",
+          "Date": "2010-01-03"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "7",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "7",
+          "Date": "2010-01-07"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "7",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "7",
+          "Date": "2010-01-18"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "D",
+          "EmployeeID": "7",
+          "Date": "2010-01-13"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "8",
+          "Date": "2010-01-17"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "8",
+          "Date": "2010-01-12"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "8",
+          "Date": "2010-01-28"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "8",
+          "Date": "2010-01-23"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "E",
+          "EmployeeID": "8",
+          "Date": "2010-01-27"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "9",
+          "Date": "2010-01-01"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "9",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "9",
+          "Date": "2010-01-10"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "N",
+          "EmployeeID": "9",
+          "Date": "2010-01-21"
+        },
+        {
+          "weight": "1",
+          "ShiftTypeID": "L",
+          "EmployeeID": "9",
+          "Date": "2010-01-25"
+        }
+      ]
+    }
+  }
+}

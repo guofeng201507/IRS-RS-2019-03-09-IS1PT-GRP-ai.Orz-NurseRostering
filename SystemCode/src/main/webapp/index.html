@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script type="module" src="index.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <!--    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css"/>-->
+
+    <style>
+        .box div, .box ul {
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h2>Welcome to Nurse Rostering</h2>
+</div>
+
+<div class="dropdown" id="select" style="float: left; ">
+    <button class="dropbtn">Scenarios Selection
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a id="sprint01_simple.xml">1 skills, 4 shiftTypes, 3 patterns, 2 contracts, 10 employees, 28 shiftDates, 152 shiftAssignments and 76 requests</a>
+		<a id="sprint01_medium.xml">1 skills, 4 shiftTypes, 3 patterns, 3 contracts, 12 employees, 28 shiftDates, 196 shiftAssignments and 154 requests</a>
+		<a id="sprint01_large.xml">2 skills, 5 shiftTypes, 3 patterns, 2 contracts, 49 employees, 28 shiftDates, 740 shiftAssignments and 735 requests</a>
+    </div>
+</div>
+
+<div id="result"></div>
+
+
+<table>
+    <tr>
+        <td>
+            <div id="table_box_native" class="result"></div>
+            <div id="index_native" class="box"></div>
+        </td>
+
+    </tr>
+</table>
+
+
+</body>
+</html>
