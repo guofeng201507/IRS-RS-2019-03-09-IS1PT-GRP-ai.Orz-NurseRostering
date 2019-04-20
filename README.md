@@ -9,17 +9,21 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Trustworthiness Validation Solution - Merchant Onboarding
+## Nurse Rostering Optimization
 
 <img src="https://github.com/gu-lijian/mr_groupproject_web/blob/master/merchantapp/merchantonboarding/static/images/signup-bg.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-The aim of our project is to deliver a light-weight, low-cost but highly efficient background screening web services for small and medium companies to facilitate fast, frictionless and digital-centric onboarding experiences for their users. To better achieve this objective, we also employed machine reasoning methods like rule based reasoning and certainty factors to accelerate screening processes and to improve risk evaluation accuracy.
+An important aspect of hospital operations in Singapore is the effective scheduling of nurses in various wards, which is vital for the hospitals’ patients to receive timely care from the nurses with the necessary skill sets. The objective is to balance operational costs and safe patient care needs while maximizing the degree to which nurses’ request are met.
+
+However, the scheduling of the nurses’ roster is very time-consuming and challenging due to the need to balance the intensive demands of healthcare and the well-being of nurses. In addition, due to the dynamic nature of the workload and unforeseen circumstances, rescheduling is also very common.
+
+Our project focuses on taking the chore out of the painstaking process of scheduling with the objective of reducing the time taken to achieve the best possible schedule in a highly repeatable manner.
 
 
-Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, Guo Feng, Wong Yoke Keong, Zhang Le are from different areas including financial, cloud, programming etc.. We hope to deliver a widely used platform which can bring core-value for enterprises, helping corporates to do digital transformation, raising efficiencies, lowering cost, interacting platform with enterprises' existing systems. We found digitised background screening is important in driving the success of a business, building a comprehensive IT system to accurately verify clients’ background and predict risk scores can be costly. So we decide to introduce Merchant Onboarding project.
+Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, Guo Feng, Wong Yoke Keong, Zhang Le are from different areas including financial, cloud, programming etc.. We hope to deliver a widely used platform which can bring core-value to hospitals, helping hospitals to do digital transformation, raising efficiencies, lowering cost, interacting platform with enterprises' existing systems. We found Nurse Rostering System is important in driving the success of a business, building a comprehensive IT system to accurately allocate nurse resources scheduling. So we decide to introduce Nurse Rostering System.
 
 
 ---
@@ -37,7 +41,7 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Merchant Onboarding](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Merchant Onboarding")
+[![Nurse Rostering](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/h0OUPGo2GJ4 "Nurse Rostering")
 
 Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
 More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
@@ -45,7 +49,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 ---
 ## SECTION 5 : USER GUIDE
 
-`<Github File Link>` : <https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding/blob/master/User_Guide.pdf>
+`<Github File Link>` : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS_ISS_Reasoning_Systems_Group_Project_NurseRostering(SpringBoot)User_Guide.pdf>
 
 [ 1 ] To prepare the Virtual Machine Environment:
 download pre-built virtual machine from http://bit.ly/iss-vm
