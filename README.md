@@ -44,12 +44,12 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 
 Please refer to the User Guide below for detailed instructions.
 
-Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS%20ISS%20Reasoning%20Systems%20Group%20Project%20(Spring%20Boot)%20User%20Guide.pdf>
+User Guide Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS%20ISS%20Reasoning%20Systems%20Group%20Project%20(Spring%20Boot)%20User%20Guide.pdf>
 
 ---
 ## SECTION 6 : PROJECT REPORT
 
 Please download the project report from the link below.
 
-`Report Download Link : <https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/ProjectReport/Project%20Report%20HDB-BTO.pdf>
+`Final Report Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/ProjectReport/NUS%20ISS%20Reasoning%20System%20Group%20Project%20Final%20Report.pdf>
 
