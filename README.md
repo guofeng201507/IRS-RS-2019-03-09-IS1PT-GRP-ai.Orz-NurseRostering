@@ -51,5 +51,5 @@ User Guide Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-I
 
 Please download the project report from the link below.
 
-`Final Report Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/ProjectReport/NUS%20ISS%20Reasoning%20System%20Group%20Project%20Final%20Report.pdf>
+Final Report Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/ProjectReport/NUS%20ISS%20Reasoning%20System%20Group%20Project%20Final%20Report.pdf>
 
