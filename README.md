@@ -17,7 +17,7 @@ However, the scheduling of the nurses’ roster is very time-consuming and chall
 Our project focuses on taking the chore out of the painstaking process of scheduling with the objective of reducing the time taken to achieve the best possible schedule in a highly repeatable manner.
 
 
-Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, Guo Feng, Wong Yoke Keong, Zhang Le are from different areas including financial, cloud, programming etc.. We hope to deliver a widely used platform which can bring core-value to hospitals, helping hospitals to do digital transformation, raising efficiencies, lowering cost, interacting platform with enterprises' existing systems. We found Nurse Rostering System is important in driving the success of a business, building a comprehensive IT system to accurately allocate nurse resources scheduling. So we decide to introduce Nurse Rostering System.
+Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, Guo Feng, Wong Yoke Keong, Zhang Le are from different areas including financial services, healthcare, cloud, software engineering. We hope to deliver a widely used platform which can bring core-value to hospitals, helping hospitals to do digital transformation, improve efficiencies, lower operational costs and integrate solution with enterprises' existing systems.
 
 
 ---
@@ -25,17 +25,17 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Dai Yirui			| A0195167U | Business process idea generation, Implementation of Business logic and integration for web application and kie workbench, introducing REST web-service for cross applications, introducing Certainty Factor computation, project report | e0384798@u.nus.edu |
-| Dong Meirong		| A0195346W | Business process idea generation, Background Research, UI Design, SME interview and project report | e0384977@u.nus.edu |
-| Gu Lijian			| A0195279L | Business process idea generation, Implement Credibility Certainty Factor, demonstration execution, testing execution. | e0384910@u.nus.edu |
-| Guo Feng			| A0195173Y | Business process idea generation, enforce agile practice in development, Implement Financial Certainty Factor, project report, testing execution.| e0384804@u.nus.edu |
-| Wong Yoke Keong	| A0195365U | Business process idea generation, Implement Credibility Certainty Factor, Project report and demo slides, testing execution. | e0384996@u.nus.edu |
-| Zhang Le 			| A0176176W | Background Research, business process idea generation, implement Operational Certainty Factor, testing execution. | e0224918@u.nus.edu |
+| Dai Yirui			| A0195167U | Project idea generation, implement and review business rules, test scenario preparation and writing, testing execution | e0384798@u.nus.edu |
+| Dong Meirong		| A0195346W | Project idea generation, UI Design and Webapp implementation and unit testing, SME interview and Project Report Writing | e0384977@u.nus.edu |
+| Gu Lijian			| A0195279L | Project idea generation, implement and review business rules, demonstration execution, future enhancement prototyping, testing execution. | e0384910@u.nus.edu |
+| Guo Feng			| A0195173Y | Project idea generation, implement and review business rules, Optaplanner REST Service implementation and unit testing, user guide writing| e0384804@u.nus.edu |
+| Wong Yoke Keong	| A0195365U | Project idea generation, implement and review business rules, project report writing and slides creation, user guide writing, testing execution. | e0384996@u.nus.edu |
+| Zhang Le 			| A0176176W | Background research, project idea generation, implement and review business rules, future enhancement protptyping, testing execution. | e0224918@u.nus.edu |
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Watch the video](https://img.youtube.com/vi/h0OUPGo2GJ4/maxresdefault.jpg)](https://youtu.be/h0OUPGo2GJ4)
+[![Demo Video](https://img.youtube.com/vi/h0OUPGo2GJ4/maxresdefault.jpg)](https://youtu.be/h0OUPGo2GJ4)
 
 ---
 ## SECTION 5 : USER GUIDE
