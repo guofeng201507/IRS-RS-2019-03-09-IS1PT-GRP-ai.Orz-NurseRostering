@@ -5,10 +5,11 @@
 ## SECTION 1 : PROJECT TITLE
 ## Nurse Rostering Optimization
 
-<img src="https://github.com/gu-lijian/mr_groupproject_web/blob/master/readme_image.jpg"
+<img src="https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/readme_image.jpg"
      style="float: left; margin-right: 0px;" />
-
+  
 Image by <a href="https://pixabay.com/users/ar130405-423602/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2082630">ar130405</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2082630">Pixabay</a>
+  
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY
 An important aspect of hospital operations in Singapore is the effective scheduling of nurses in various wards, which is vital for the hospitals’ patients to receive timely care from the nurses with the necessary skill sets. The objective is to balance operational costs and safe patient care needs while maximizing the degree to which nurses’ request are met.
@@ -43,7 +44,7 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 
 Please refer to the User Guide below for detailed instructions.
 
-Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS_ISS_Reasoning_Systems_Group_Project_NurseRostering_(SpringBoot)_User_Guide.pdf>
+Download Link : <https://github.com/guofeng201507/IRS-RS-2019-03-09-IS1PT-GRP-ai.Orz-NurseRostering/blob/master/UserGuide/NUS%20ISS%20Reasoning%20Systems%20Group%20Project%20(Spring%20Boot)%20User%20Guide.pdf>
 
 ---
 ## SECTION 6 : PROJECT REPORT
