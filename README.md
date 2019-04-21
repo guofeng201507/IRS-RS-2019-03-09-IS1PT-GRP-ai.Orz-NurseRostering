@@ -37,7 +37,7 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Demo Video](https://img.youtube.com/vi/h0OUPGo2GJ4/maxresdefault.jpg)](https://youtu.be/h0OUPGo2GJ4)
+[![Demo Video](https://img.youtube.com/vi/mshz5WYBkkw/maxresdefault.jpg)](https://youtu.be/mshz5WYBkkw)
 
 ---
 ## SECTION 5 : USER GUIDE
